@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { ConvexClientProvider } from "./ConvexClientProvider";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "./globals.css";
 
