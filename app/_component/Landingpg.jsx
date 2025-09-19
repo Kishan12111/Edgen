@@ -2,11 +2,11 @@
 import React from "react";
 import { BackgroundLines } from "@/components/ui/background-lines";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
-
-
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 function Landingpg() {
-    const words = [
+  const words = [
     {
       text: "Your ",
     },
@@ -19,7 +19,7 @@ function Landingpg() {
     {
       text: "Here ",
     },
-     {
+    {
       text: "with ",
       className: "text-blue-500 dark:text-blue-500",
     },
@@ -36,9 +36,11 @@ function Landingpg() {
         </h2>
 
         <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center text-semibold">
-        A One-Stop Personalized Career & Education Advisor
-
+          A One-Stop Personalized Career & Education Advisor
         </p>
+        <Button className="mx-auto mt-8 relative z-100">
+          <Link href="/dashboard/test">Check Your Future</Link>
+        </Button>
       </BackgroundLines>
     </div>
   );
