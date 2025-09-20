@@ -1,4 +1,4 @@
-import { api } from '@/convex/_generated/api';
+import { api } from "../convex/_generated/api.js";
 import { useUser } from '@clerk/nextjs';
 import { useMutation } from 'convex/react'
 import React, { useEffect } from 'react'
