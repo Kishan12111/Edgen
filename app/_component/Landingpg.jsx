@@ -1,9 +1,10 @@
 "use client";
 import React from "react";
-import { BackgroundLines } from "@/components/ui/background-lines";
+import { BackgroundLines } from "@/components/ui/Background-linesoo";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+
 
 function Landingpg() {
   const words = [
