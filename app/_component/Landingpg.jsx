@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import {BackgroundLines} from "@/components/ui/background-lines.jsx";
+import {BackgroundLines} from "../../components/ui/background-lines.jsx";
 import {TypewriterEffect} from "../../components/ui/typewriter-effect.jsx";
 import {Button} from "../../components/ui/button.jsx";
 
