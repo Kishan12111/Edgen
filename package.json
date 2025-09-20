@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "vercel-build": "convex generate && next build"
+    "vercel-build": "npx convex codegen && next build"
+
   },
   "dependencies": {
     "@clerk/nextjs": "^6.32.0",
