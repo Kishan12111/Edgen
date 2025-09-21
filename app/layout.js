@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { ConvexClientProvider } from "./ConvexClientProvider";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-
+import { Outfit } from "next/font/google";
 import "./globals.css";
 
 import {
@@ -17,6 +17,12 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+
+const outfit = Outfit({
+  variable: "--font-outfit",
+  subsets: ["latin"],
+});
+
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -34,7 +40,7 @@ export default function RootLayout({ children }) {
     
     <html lang="en" className="dark">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={outfit.className}
       >
         <ConvexClientProvider>{children}</ConvexClientProvider>
       </body>
